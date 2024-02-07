@@ -22,6 +22,11 @@ const string = "45";
 let isLooselyEqual = (num == string)
 let isStrictlyEqual = (num === string)
 
+// COERCION, you can't add a string value and a number together, it coerces into a string. Uncomment the code below to test
+console.log(10 + 5);
+console.log("10" + 5);
+console.log(5 + "10");
+
 
 // 3.
 const isTrue = true;
