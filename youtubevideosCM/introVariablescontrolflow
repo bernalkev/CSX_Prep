@@ -1,0 +1,9 @@
+const myNums = [50,75,90];
+
+for (let i=0; i<myNums.length; i++){
+    const num1 = myNums[i];
+    for (let j=0; j<myNums.length; j++){
+    const num2 = myNums[j];
+    console.log('Sum', num1 + num2)
+    }
+};
