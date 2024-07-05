@@ -1,0 +1,67 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body >
+  <h1 id="title"> Finding your Dao* </h1>
+  <p id="description">
+      <strong>The purpose of this survey is to quickly assess where you stand in life, meaning financially, emotionally, physically, and suggest roundabout ways to keep improving.
+      </strong>
+  <p id="Daodefininition">
+    <strong>*The word for this concept, dao, indicates a “way” in the sense of a road or a path. Owing to the contextual nature of Chinese languages and depending upon its use in a sentence, dao can function as a noun or a verb.
+    </strong>
+  </p>
+  </p>
+  <form id="survey-form">
+  <fieldset>
+    <label id="name-label"> Name: <input id="name" type="text" required placeholder="Name"> </label>
+    <label id="last-name"> Last name: <input id="Lastname" type="text" required placeholder="Lastname"> </label>
+    <label id="email-label">E-mail:<input id="email" type="email" required placeholder="Type a valid e-mail"></label>
+    <label id="number-label">Age:<input id="number" type="number" required placeholder="Type your age..." max="100" min="12"></label>
+  </fieldset>
+  <fieldset>
+  <label>What best describes your personality?
+    <select id="dropdown" name="personaility">
+      <option value="">(select one)
+      </option>
+      <option value="1">The Director
+      </option>
+      <option value="2">The Socializer
+      </option>
+      <option value="3">The Thinker
+      </option>
+      <option value="4">The Supporter
+      </option>
+    </select>
+  </label>
+  </fieldset>
+  <fieldset>What phrase best describes you?
+  <legend>
+  </legend>
+  <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked value="radio"/> Instant Gratification</label>
+  <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="radio"/> Delayed Pleasure</label>
+  </fieldset>
+  <fieldset>
+  <label for="options" required> Select all that apply: </label>
+    <input class="inline" id="options" type="checkbox" name="terms-and-conditions" value="1"/> I love love</a>
+    <input class="inline" id="options" type="checkbox"  value ="2" name="terms-and-conditions" /> I like burgers</a>
+    <input class="inline" id="options" type="checkbox" name="terms-and-conditions" value ="3"/> I like pizza</a>
+  </label>
+  </fieldset>
+  <fieldset>
+  <label for="bio">Additional comments:
+<textarea id="bio" name="bio" rows="3" cols="30" placeholder="Add your thoughts..."></textarea>
+  </label>
+  </fieldset>
+
+<button id="submit" type="submit" value="Submit"> 
+Submit
+</button>
+  </form>
+</body>
+</html>
+
